@@ -1,0 +1,37 @@
+import java.util.Random;
+
+public class Main {
+    public static String generatePhoneNumber() {
+        Random random = new Random();
+        return "+7" + String.format("%010d", random.nextLong(10000000000L));
+    }
+    
+    public static String getRandElement(String[] arr, int n) {
+        Random random = new Random();
+        return arr[random.nextInt(n)];
+    }
+    
+    static String[] lastNames = {
+            "Ivanov",
+            "Petrov", 
+            "Sidorov",
+            "Smirnov",
+            "Kuznetsov"
+    };
+        
+    static String[] firstNames = {
+            "Ivan",
+            "Alexander", 
+            "Sergey",
+            "Dmitry",
+            "Maxim"
+    };
+    
+    public static void main(String[] args) {
+        String fN = getRandElement(firstNames, 5);
+        String lN = getRandElement(lastNames, 5);
+        String ph = generatePhoneNumber();
+        Contact c = new Contact(fN, lN, ph);
+        System.out.println(c.toString());
+    }
+}
