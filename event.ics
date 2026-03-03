@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+PRODID:-//Yandex LLC//Yandex Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+X-YANDEX_MAIL_TYPE:event_invitation
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Moscow:20260303T121500
+DTEND;TZID=Europe/Moscow:20260303T130000
+SUMMARY:Собеседование на позицию инженер - конструктор _ Рощупкин Александр
+UID:141zhik6u5256d7fpbxy5iepwyandex.ru
+SEQUENCE:0
+DTSTAMP:20260302T082222Z
+CREATED:20260302T082222Z
+LOCATION:
+DESCRIPTION:Ссылка на видеовстречу: https://telemost.360.yandex.ru/j/2658268676\nПозвонить с телефона: +7 ​495 ​363-​15-​52\, доб. 2658 ​2686 ​76#\n
+URL:https://calendar.yandex.ru/event?event_id=2978952039
+TRANSP:OPAQUE
+CATEGORIES:Мои события
+ORGANIZER;CN=Gumerova Yuliya:mailto:yuliya.gumerova@claas-krasnodar.ru
+CONFERENCE;FEATURE=VIDEO;VALUE=URI:https://telemost.360.yandex.ru/j/2658268676
+LAST-MODIFIED:20260302T082222Z
+CLASS:PRIVATE
+ATTENDEE;PARTSTAT=ACCEPTED;CN=Gumerova Yuliya;ROLE=REQ-PARTICIPANT:mailto:yuliya.gumerova@claas-krasnodar.ru
+ATTENDEE;PARTSTAT=NEEDS-ACTION;CN=Zaruba Alexander;ROLE=REQ-PARTICIPANT:mailto:alexander.zaruba@claas-krasnodar.ru
+ATTENDEE;PARTSTAT=NEEDS-ACTION;CN=Semenov Viacheslav;ROLE=REQ-PARTICIPANT:mailto:viacheslav.semenov@claas-krasnodar.ru
+ATTENDEE;PARTSTAT=NEEDS-ACTION;CN=usyboga;ROLE=REQ-PARTICIPANT:mailto:usyboga@mail.ru
+END:VEVENT
+END:VCALENDAR
